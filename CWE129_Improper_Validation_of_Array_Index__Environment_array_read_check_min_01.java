@@ -27,6 +27,8 @@ public class CWE129_Improper_Validation_of_Array_Index__Environment_array_read_c
     public void bad() throws Throwable
     {
         int data;
+        
+        String name=name;
 
         data = Integer.MIN_VALUE; /* Initialize data */
 
@@ -43,6 +45,7 @@ public class CWE129_Improper_Validation_of_Array_Index__Environment_array_read_c
                 catch(NumberFormatException exceptNumberFormat)
                 {
                     IO.logger.log(Level.WARNING, "Number format exception parsing data from string", exceptNumberFormat);
+                    System.out.println("Printed");
                 }
             }
         }
