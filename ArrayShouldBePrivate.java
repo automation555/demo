@@ -17,7 +17,7 @@ public class ArrayShouldBePrivate{
          try(ResultSet rs = stmt.executeQuery("select * from MyPlayers");){
             //Retrieving the data
             while(rs.next()) {
-            
+            System.out.println("Welcome");
             }
          } catch (SQLException e) {
             e.printStackTrace();
