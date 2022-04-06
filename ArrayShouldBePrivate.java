@@ -18,6 +18,7 @@ public class ArrayShouldBePrivate{
             //Retrieving the data
             while(rs.next()) {
             System.out.println("Welcome");
+           System.out.println("Welcome");
             }
          } catch (SQLException e) {
             e.printStackTrace();
