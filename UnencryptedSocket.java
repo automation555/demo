@@ -12,6 +12,7 @@ public class UnencryptedSocket{
 			soc = new Socket("www.google.com",80);
 		} catch (IOException e) {
 			e.printStackTrace();
+			e.printStackTrace();
 		}
 	}
 
