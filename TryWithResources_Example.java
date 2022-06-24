@@ -15,5 +15,7 @@ con = DriverManager.getConnection(mysqlUrl, "root", "password");
 Statement stmt = con.createStatement(); {
 }} catch (SQLException e) {
 e.printStackTrace();
+  e.printStackTrace();
+  e.printStackTrace();
 }
 }
