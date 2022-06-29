@@ -22,6 +22,7 @@ public class ArrayShouldBePrivate{
             }
          } catch (SQLException e) {
             e.printStackTrace();
+           System.out.println("code added");
          }
       }} catch (SQLException e) {
             e.printStackTrace();
