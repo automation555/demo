@@ -39,6 +39,7 @@ public class CWE585_Empty_Sync_Block__Thread_01 extends AbstractTestCase
             public void run() 
             { 
                 CWE585_Empty_Sync_Block__Thread_01.helperBad(); 
+		System.out.println("issue");
             }
         });
 
