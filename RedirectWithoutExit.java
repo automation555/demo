@@ -6,6 +6,7 @@ public class RedirectWithoutExit {
 		response.sendRedirect("/test");
 		IO.writeLine("line after redirect");
 	          IO.writeLine("line after redirect");
+	  IO.writeLine("line after redirect");
 	  
 	     
 	}
