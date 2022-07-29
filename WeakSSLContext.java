@@ -5,4 +5,6 @@ public class WeakSSLContext {
 	SSLContext context1 = SSLContext.getInstance("SSL");
 	// EMB-ISSUE: CodeIssueNames.WEAK_SSLCONTEXT/no-detect
 	SSLContext sslContext = SSLContext.getInstance("TLS");
+	
+	Sustem.out.println("comment added");
 }
