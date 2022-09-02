@@ -10,6 +10,9 @@ public class AvoidThrowingGenericException {
         logger.info("Throwing generic exception");
     }
     
+    
+    
+    
     public void M3()throws  InvocationTargetException{
         logger.info("Throwing InvocationTargetException");
     }
